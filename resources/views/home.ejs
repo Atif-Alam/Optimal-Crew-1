@@ -1,0 +1,22 @@
+
+   <div class="box ">
+
+    <div class=" flex ">
+      <div class="box1 font-lg font-bold text-5xl font-sans w-1/2">
+        Sharing is Caring
+        <div class="text-3xl">Hi User, Help your nearby people in Need by your lifestyle product and Get some bucks ! </div>
+      </div>
+      <div class="inline-block w-1/2">
+        <% items.forEach(function(item) {%>
+          <div class="box1-2 my-3 rounded-xl border-2 border-solid flex items-center ">
+             <div class="w-1/3"> <img class=" p-2 rounded-xl " src="/img/<%= item.image%>" alt=""> </div>
+            <div  class=" p-3 w-1/3"><div class="font-bold"><%= item.name %></div> <div class="border-2 p-1 font-bold font-italic my-2 rounded-lg">₹ <%= item.price %> /-</div><div class="flex text-sm">Tenant:_<div class="font-italic "> <%= item.owner %></div></div></div>
+            <a  href="/checkout" class="checkout border-2 text-center border-solid border-grey rounded-lg p-2 m-auto">Buy Now</a>
+          </div>
+
+         <% }) %>
+      
+      </div>
+      
+    </div>
+  </div>

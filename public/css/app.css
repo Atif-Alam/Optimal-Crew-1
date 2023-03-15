@@ -1,0 +1,70 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: #172D13;
+}
+
+nav {
+  color: #fff;
+  background: #6BB77B;
+  z-index: 2;
+}
+
+nav ul :hover {
+  background: #fff;
+  color: #172D13;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+nav form input {
+  color: #172D13;
+}
+
+nav form button {
+  background: #D76F30;
+  color: #fff;
+}
+nav form button:hover {
+  color: #172D13;
+  background: #D76F30;
+  transition: all 0.3s ease-in-out;
+}
+
+footer {
+  color: #fff;
+  background: #6BB77B;
+}
+
+.box1 {
+  color: #fff;
+}
+
+.box1-2 {
+  background: #fff;
+  width: auto;
+  color: #172D13;
+}
+
+.signbox {
+  background: #fff;
+  color: #172D13;
+  height: auto;
+}
+
+.btn {
+  color: #fff;
+  background: #172D13;
+}
+.btn:hover {
+  color: #172D13;
+  background: green;
+  transition: all 0.3s ease-in-out;
+}
+
+.checkout {
+  color: #172D13;
+}
+.checkout:hover {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}

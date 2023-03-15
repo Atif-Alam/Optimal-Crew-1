@@ -1,0 +1,65 @@
+@import './variables';
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: $primary;
+}
+nav {
+    color: $pure;
+    background: $secondary;
+    z-index: 2;
+}
+nav ul :hover{
+    background: $pure;
+    color: $primary;
+    transition: $smooth;
+    text-decoration: none;
+    
+}
+nav form input {
+    color: $primary;
+}
+nav form button {
+    background: $tertiary;
+    color: $pure;
+    &:hover{
+        color:$primary;
+        background: $tertiary;
+        transition: $smooth;
+    }
+}
+footer {
+    color: $pure;
+    background: $secondary;  
+}
+.box1 {
+    
+    color: $pure;
+   
+}
+.box1-2{
+    background: $pure;
+    width:auto;
+    color: $primary;
+}
+.signbox{
+    background: $pure;
+    color: $primary;
+    height: auto;
+}
+.btn {
+    color: $pure;
+    background: $primary;
+    &:hover{
+        color: $primary;
+        background: green;
+        transition: $smooth;
+    }
+}
+.checkout{
+    color: $primary;
+    &:hover{
+        text-decoration: none;
+        transition: $smooth;
+    }
+}
